@@ -1,0 +1,20 @@
+
+### Get
+GET localhost:8080/demo
+
+
+### POST request create user with Body
+### return token
+POST localhost:8080/register
+Content-Type: application/json
+
+{
+"firstName": "nex",
+"lastName": "mar",
+"username": "nexoc",
+"password": "0880",
+"role": "USER"
+}
+
+
+
